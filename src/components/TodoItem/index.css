@@ -1,0 +1,36 @@
+.todo-item {
+  display: flex;
+  margin: 10px;
+}
+.checkbox-items {
+  height: 100px;
+  width: 100px;
+  margin: 2px;
+}
+.item-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: antiquewhite;
+  border: 2px solid gray;
+  border-radius: 10px;
+}
+.todo-buttons {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px solid rgba(51, 51, 241, 0.952);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 13px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+.todo-text {
+  font-weight: 400;
+  font-size: medium;
+  margin: 10px;
+}
+.input-container {
+  border: 1px solid gray;
+}

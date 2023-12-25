@@ -1,0 +1,47 @@
+.todo-container {
+  display: flex;
+  flex-direction: column;
+}
+.header-section {
+  display: flex;
+  justify-content: space-between;
+}
+.header-title-container {
+  display: flex;
+}
+.heads-1 {
+  align-self: center;
+  margin: 10px;
+}
+
+.heads-2 {
+  margin: 10px;
+}
+
+.task-input {
+  margin: 10px;
+  padding: 20px;
+  border: 2px solid black;
+}
+.add-button {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px solid rgba(51, 51, 241, 0.952);
+  border-radius: 5px;
+  margin: 15px;
+  padding: 13px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+  width: 60%;
+  max-width: 150px;
+}
+.list-items {
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  height: 50px;
+  width: 50px;
+  margin: 10px;
+}

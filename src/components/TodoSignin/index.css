@@ -1,0 +1,19 @@
+.sign-in-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.para {
+  color: red;
+}
+.sign-in-image {
+  height: 550px;
+  width: 600px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .sign-in-image {
+    height: 250px;
+    width: 300px;
+  }
+}

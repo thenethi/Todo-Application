@@ -1,0 +1,36 @@
+.signup-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.form-container {
+  width: 50%;
+  margin: 10px;
+}
+.gender-container {
+  display: flex;
+}
+
+.gender-item {
+  margin-top: 6px;
+  margin-left: 2px;
+}
+
+.para {
+  color: red;
+  margin-bottom: 10px;
+}
+.svg-im {
+  height: 550px;
+  width: 600px;
+}
+.title {
+  margin: 10px;
+}
+
+@media screen and (min-width: 250px) and (max-width: 600px) {
+  .svg-im {
+    height: 250px;
+    width: 300px;
+  }
+}

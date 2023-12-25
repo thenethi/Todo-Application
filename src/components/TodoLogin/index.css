@@ -1,0 +1,59 @@
+.app-container {
+  background-image: url('https://img.freepik.com/free-photo/blank-clipboard-with-grocery-cart_23-2147957767.jpg?size=626&ext=jpg&ga=GA1.1.1574803762.1666539158&semt=sph');
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.heads {
+  color: black;
+  margin: 50px;
+}
+
+.sign-buttons {
+  background-color: #0b69ff;
+  color: white;
+  border: 0px solid rgba(51, 51, 241, 0.952);
+  border-radius: 5px;
+  margin: 10px;
+  padding: 13px;
+  cursor: pointer;
+  outline: none;
+  text-decoration: none;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 100vh;
+}
+
+label {
+  height: 40px;
+}
+
+input {
+  border: 2px solid gray;
+  background-color: transparent;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 2px;
+  margin-bottom: 4px;
+  width: 30%;
+}
+.form-containers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  height: 100vh;
+  width: 50%;
+  margin: 10px;
+}
